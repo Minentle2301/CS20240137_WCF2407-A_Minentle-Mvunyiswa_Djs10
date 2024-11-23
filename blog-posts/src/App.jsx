@@ -35,7 +35,7 @@ const BlogPosts = () => {
   if (error) {
     return (
       <div>
-        <h2>An Error Occurred</h2>
+        <h2>DATA FETCHING FAILED</h2>
         <p>{error}</p>
       </div>
     );
